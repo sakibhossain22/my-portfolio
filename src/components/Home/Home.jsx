@@ -15,7 +15,7 @@ const Home = () => {
            <Projects></Projects>
            <ContactInfo></ContactInfo>
            <div className='flex items-center justify-end my-5'>
-                <Link to="nav" spy={true} smooth={true}   offset={-30} duration={500}><button className='btn bg-blue-600 text-white' ><FaArrowTurnUp></FaArrowTurnUp></button></Link>
+                <Link to="nav" spy={true} smooth={true}   offset={-30} duration={500}><button className='btn bg-blue-600 text-white ' ><FaArrowTurnUp></FaArrowTurnUp></button></Link>
            </div>
            <Footer></Footer>
         </div>

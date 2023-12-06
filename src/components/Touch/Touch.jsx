@@ -2,12 +2,12 @@
 
 const ContactInfo = () => {
     return (
-        <div className="w-5/6 mx-auto" id='touch'>
+        <div className="mx-auto" id='touch'>
             <h1 className="text-center font-bold text-3xl  mb-3">Contact</h1>
             <div className="bg-[#7865ff] w-14 mx-auto h-1"></div>
-            <div className="flex flex-col justify-between lg:p-8">
+            <div className="flex flex-col gap-3 lg:gap-10 lg:flex-row justify-between lg:p-8">
                 {/* Left Div */}
-                <div>
+                <div className="w-full">
                     <div className="bg-gray-800 mb-4 p-6 rounded">
                         <strong>Address:</strong> 123 Main Street, Cityville
                     </div>
@@ -23,7 +23,7 @@ const ContactInfo = () => {
                 </div>
 
                 {/* Right Div - Form */}
-                <div className="lg:w-2/6">
+                <div className="lg:w-2/6 w-full py-2 lg:p-0">
                     
                     <form>
                         <h1 className='text-gray-400 text-center'>Contact Form</h1>

@@ -13,7 +13,7 @@ const About = () => {
                         <Tab className='lg:py-4  py-2 lg:px-14 px-4 '>Education</Tab>
                     </TabList>
 
-                    <TabPanel className='text-left'>
+                    <TabPanel className='text-left lg:w-full  w-5/6'>
                         <div className='grid grid-cols-2 gap-10'>
                             <div>
                                 <div className='flex items-center justify-between'>
