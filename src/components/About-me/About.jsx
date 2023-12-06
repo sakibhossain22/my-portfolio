@@ -2,15 +2,15 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 const About = () => {
     return (
-        <div className='my-14'>
-            <h1 className="text-center font-bold text-3xl">About Me</h1>
+        <div className='my-14' id='about'>
+            <h1 className="text-center font-bold text-3xl  mb-3">About Me</h1>
             <div className="bg-[#7865ff] w-14 mx-auto h-1"></div>
             <div className='my-5'>
-                <Tabs className=' mx-auto text-center flex gap-10 justify-between'>
-                    <TabList className='flex rounded h-96 flex-col gap-5 px-28 items-center justify-center bg-gray-800'>
-                        <Tab className='py-4 px-14'>Skils</Tab>
-                        <Tab className='py-4 px-14'>About Me</Tab>
-                        <Tab className='py-4 px-14'>Education</Tab>
+                <Tabs className=' mx-auto text-center lg:flex gap-10 justify-between'>
+                    <TabList className='flex my-2 rounded lg:flex-col gap-5 lg:px-28 items-center justify-center bg-gray-800'>
+                        <Tab className='lg:py-4  py-2 lg:px-14 px-4 '>Skils</Tab>
+                        <Tab className='lg:py-4  py-2 lg:px-14 px-4 '>About Me</Tab>
+                        <Tab className='lg:py-4  py-2 lg:px-14 px-4 '>Education</Tab>
                     </TabList>
 
                     <TabPanel className='text-left'>

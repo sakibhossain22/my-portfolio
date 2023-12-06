@@ -2,10 +2,10 @@
 
 const ContactInfo = () => {
     return (
-        <div className="w-5/6 mx-auto">
-            <h1 className="text-center font-bold text-3xl">Services</h1>
+        <div className="w-5/6 mx-auto" id='touch'>
+            <h1 className="text-center font-bold text-3xl  mb-3">Contact</h1>
             <div className="bg-[#7865ff] w-14 mx-auto h-1"></div>
-            <div className="flex justify-between p-8">
+            <div className="flex flex-col justify-between lg:p-8">
                 {/* Left Div */}
                 <div>
                     <div className="bg-gray-800 mb-4 p-6 rounded">
@@ -23,9 +23,10 @@ const ContactInfo = () => {
                 </div>
 
                 {/* Right Div - Form */}
-                <div className="w-2/6">
+                <div className="lg:w-2/6">
                     
                     <form>
+                        <h1 className='text-gray-400 text-center'>Contact Form</h1>
                         <div className="mb-7">
                             <label htmlFor="name" className="block text-sm font-medium text-gray-600">
                                 Name

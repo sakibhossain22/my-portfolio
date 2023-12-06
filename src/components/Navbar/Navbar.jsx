@@ -1,16 +1,15 @@
-import { Link } from "react-router-dom";
-
+import { Link } from 'react-scroll'
 const Navbar = () => {
     const navlinks = <>
-        <li><Link>Home</Link></li>
-        <li><Link>About</Link></li>
-        <li><Link>Contact</Link></li>
-        <li><Link>Project</Link></li>
-        <li><Link>Services</Link></li>
+        <li><Link  to="/" spy={true} smooth={true}   offset={50} duration={500}>Home</Link></li>
+        <li><Link to="about" spy={true} smooth={true}   offset={-30} duration={500}>About</Link></li>
+        <li><Link to="touch" spy={true} smooth={true}   offset={0} duration={500}>Contact</Link></li>
+        <li><Link to="projects" spy={true} smooth={true}   offset={-30} duration={500}>Project</Link></li>
+        <li><Link to="services" spy={true} smooth={true}   offset={-30} duration={500}>Services</Link></li>
         <li><Link>Blog</Link></li>
     </>
     return (
-        <div>
+        <div id='nav'>
             <div className="navbar bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -21,15 +20,15 @@ const Navbar = () => {
                             {navlinks}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl uppercase">Sakib Mia</a>
+                    <a className="btn btn-ghost text-2xl uppercase ">Sakib Mia</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
                         {navlinks}
                     </ul>
                 </div>
-                <div className="navbar-end">
-                    <Link to='https://docs.google.com/document/d/1PYUZrSsIhwHrilXk-s3BxL0Kh3kk-WGQHUR-ddU3T64/edit?usp=sharing'>
+                <div className="navbar-end hidden lg:block md:block">
+                    <Link to='https://drive.google.com/u/0/uc?id=1msaGOBK7O7u5vJXPt95h4Qqc2rMj151W&export=download'>
                         <button className="bg-[#7865ff] px-6 py-2 rounded text-white">Download Resume</button>
                     </Link>
                 </div>
