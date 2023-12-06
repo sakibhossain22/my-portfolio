@@ -27,7 +27,7 @@ const Navbar = () => {
                         {navlinks}
                     </ul>
                 </div>
-                <div className="navbar-end hidden lg:block md:block">
+                <div className="navbar-end invisible lg:visible md:visible">
                     <Link to='https://drive.google.com/u/0/uc?id=1msaGOBK7O7u5vJXPt95h4Qqc2rMj151W&export=download'>
                         <button className="bg-[#7865ff] px-6 py-2 rounded text-white">Download Resume</button>
                     </Link>
