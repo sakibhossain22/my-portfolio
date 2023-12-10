@@ -1,11 +1,11 @@
 import { Link } from 'react-scroll'
 const Navbar = () => {
     const navlinks = <>
-        <li><Link  to="/" spy={true} smooth={true}   offset={50} duration={500}>Home</Link></li>
-        <li><Link to="about" spy={true} smooth={true}   offset={-30} duration={500}>About</Link></li>
-        <li><Link to="touch" spy={true} smooth={true}   offset={0} duration={500}>Contact</Link></li>
-        <li><Link to="projects" spy={true} smooth={true}   offset={-30} duration={500}>Project</Link></li>
-        <li><Link to="services" spy={true} smooth={true}   offset={-30} duration={500}>Services</Link></li>
+        <li><Link to="/" spy={true} smooth={true} offset={50} duration={500}>Home</Link></li>
+        <li><Link to="about" spy={true} smooth={true} offset={-30} duration={500}>About</Link></li>
+        <li><Link to="touch" spy={true} smooth={true} offset={0} duration={500}>Contact</Link></li>
+        <li><Link to="projects" spy={true} smooth={true} offset={-30} duration={500}>Project</Link></li>
+        <li><Link to="services" spy={true} smooth={true} offset={-30} duration={500}>Services</Link></li>
         <li><Link>Blog</Link></li>
     </>
     return (
@@ -29,7 +29,7 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end invisible lg:visible md:visible">
                     <Link to='https://drive.google.com/u/0/uc?id=1msaGOBK7O7u5vJXPt95h4Qqc2rMj151W&export=download'>
-                        <button className="bg-[#7865ff] px-6 py-2 rounded text-white">Download Resume</button>
+                        <button className="px-6 py-2 bg-[#02c9d4] text-gray-800 font-bold rounded-xl">Download Resume</button>
                     </Link>
                 </div>
             </div>
