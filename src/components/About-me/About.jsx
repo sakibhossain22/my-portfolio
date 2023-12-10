@@ -4,7 +4,7 @@ const About = () => {
     return (
         <div className='my-14' id='about'>
             <h1 className="text-center font-bold text-3xl  mb-3">About Me</h1>
-            <div className="bg-[#7865ff] w-14 mx-auto h-1"></div>
+            <div className="bg-[#02c9d4] w-14 mx-auto h-1"></div>
             <div className='my-5 mx-5'>
                 <Tabs className=' mx-auto text-center lg:grid grid-cols-12 gap-8 justify-center'>
                     <div className='lg:col-span-4'>
@@ -15,9 +15,9 @@ const About = () => {
                         </TabList>
                     </div>
 
-                    <div className='lg:col-span-8'>
+                    <div className='lg:col-span-8 '>
                         <TabPanel className='text-left lg:w-full '>
-                            <div className='grid grid-cols-2 gap-5'>
+                            <div className='grid grid-cols-1 lg:grid-cols-2 gap-5'>
                                 <div>
                                     <div className='flex items-center justify-between'>
                                         <h1>Javascript</h1>

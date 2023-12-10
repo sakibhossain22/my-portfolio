@@ -4,7 +4,7 @@ const Services = () => {
     return (
         <div className="mx-4" id='services'>
             <h1 className="text-center font-bold text-3xl mb-3">My <span className="text-[#02c9d4]">Services</span></h1>
-            <div className="bg-[#7865ff] w-14 mx-auto h-1"></div>
+            <div className="bg-[#02c9d4] w-14 mx-auto h-1"></div>
             <div className="flex flex-col lg:flex-row items-center justify-center gap-14 my-10">
                 {[
                     { icon: <FaCode className="text-3xl text-[#02c9d4] mx-auto" />, title: "Web Design", description: "Captivating, user-friendly websites. Specializing in responsive design, ensuring flawless functionality across all devices." },

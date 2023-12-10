@@ -1,57 +1,57 @@
+import { Link } from "react-scroll";
 
 
 const ContactInfo = () => {
     return (
-        <div className="mx-auto" id='touch'>
-            <h1 className="text-center font-bold text-3xl  mb-3">Contact</h1>
-            <div className="bg-[#7865ff] w-14 mx-auto h-1"></div>
+        <div className="mx-5" id='touch'>
+            <h1 className="text-center font-bold text-3xl  mb-3">Contact <span className="text-[#02c9d4]">Me !</span></h1>
+            <div className="bg-[#02c9d4] w-14 mx-auto h-1"></div>
             <div className="flex flex-col gap-3 lg:gap-10 lg:flex-row justify-between lg:p-8">
-                <div className="lg:w-2/6 w-full py-2 lg:p-0">
+                <div className="lg:w-4/6 w-full mx-auto py-2 lg:p-0">
                     
                     <form>
-                        <h1 className='text-gray-400 text-center'>Contact Form</h1>
-                        <div className="mb-7">
-                            <label htmlFor="name" className="block text-sm font-medium text-gray-600">
-                                Name
-                            </label>
+                        <div className="mb-7 flex items-center gap-5">
                             <input
                                 type="text"
                                 id="name"
                                 name="name"
-                                className="mt-1 p-2  rounded-md w-full"
-                                placeholder="Your Name"
+                                className="mt-1 p-3 bg-gray-700 rounded-md w-full"
+                                placeholder="Full Name"
                             />
-                        </div>
-                        <div className="mb-7">
-                            <label htmlFor="phone" className="block text-sm font-medium text-gray-600">
-                                Phone
-                            </label>
-                            <input
-                                type="tel"
-                                id="phone"
-                                name="phone"
-                                className="mt-1 p-2  rounded-md w-full"
-                                placeholder="Your Phone"
-                            />
-                        </div>
-                        <div className="mb-7">
-                            <label htmlFor="email" className="block text-sm font-medium text-gray-600">
-                                Email
-                            </label>
                             <input
                                 type="email"
-                                id="email"
-                                name="email"
-                                className="mt-1 p-2  rounded-md w-full"
-                                placeholder="Your Email"
+                                id="name"
+                                name="name"
+                                className="mt-1 p-3 bg-gray-700 rounded-md w-full"
+                                placeholder="Your E-mail"
                             />
                         </div>
+                        <div className="mb-7 flex items-center gap-5">
+                            <input
+                                type="number"
+                                id="name"
+                                name="name"
+                                className="mt-1 p-3 bg-gray-700 rounded-md w-full"
+                                placeholder="Your Phone Number"
+                            />
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                className="mt-1 p-3 bg-gray-700 rounded-md w-full"
+                                placeholder="Your E-mail Subject"
+                            />
+                        </div>
+                        <div>
+                            <textarea name="" className="w-full bg-gray-700 p-3" id="" placeholder="Your Messages" cols="30" rows="10"></textarea>
+                        </div>
+                        <Link className="flex items-center justify-center my-3">
                         <button
                             type="submit"
-                            className="bg-blue-500 w-full text-white p-2 rounded-md hover:bg-blue-600"
+                            className="bg-[#02c9d4] text-black font-bold px-6 py-2 rounded-lg"
                         >
-                            Submit
-                        </button>
+                            Your Message
+                        </button></Link>
                     </form>
                 </div>
             </div>

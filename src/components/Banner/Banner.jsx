@@ -5,12 +5,12 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 const Banner = () => {
     return (
-        <div className='flex lg:flex-row flex-col-reverse items-center justify-between gap-5 my-10'>
+        <div className='flex lg:flex-row flex-col-reverse items-center justify-between gap-5 mx-5 my-10'>
             <div className='lg:w-7/12 flex items-center justify-center'>
                 <div>
                     <p className='text-gray-400 text-2xl'>Hello It's Me !</p>
-                    <h2 className='lg:text-6xl text-3xl font-bold my-3'>Sakib Mia</h2>
-                    <p className='lg:text-2xl mb-5'>I am a Web <span className='text-[#02c9d4]'>Developer</span></p>
+                    <h2 className='lg:text-6xl text-4xl font-bold my-3'>Sakib Mia</h2>
+                    <p className='lg:text-2xl mb-5'>I am a Web <span className='text-[#02c9d4] font-bold'>Developer</span></p>
                     <p className='my-3 text-gray-400 leading-loose'>To advance my web development career by exhibiting my talents and proving that I am a quick learner and highly skilled professional. I'm always looking for new challenges that will allow me to use my abilities to their full potential, and I enjoy working with cutting-edge technology.</p>
                     <div className='flex items-center gap-6 my-5'>
                         <Link to='https://www.facebook.com/Sakib.Hossain97' className='transition-all duration-300 ease-in-out transform hover:scale-110'>
